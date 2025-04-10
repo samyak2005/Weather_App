@@ -31,7 +31,6 @@ const WeatherCard = ({ city, mini = false }) => {
     );
   }
 
-  // For the main current weather display
   if (!currentWeather) return null;
 
   const isFavorite = favorites.includes(currentWeather.name);
